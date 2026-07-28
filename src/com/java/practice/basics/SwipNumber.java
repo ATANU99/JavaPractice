@@ -12,6 +12,8 @@ public class SwipNumber {
 //		b=a-b;//10
 //		a=a-b;//20
 		
+		
+		
 		a = a ^ b;
 		b = a ^ b;
 		a = a ^ b;
