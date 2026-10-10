@@ -29,7 +29,7 @@ public class All_Characters_Problem {
 		System.out.println(map);
 		
 		char c=map.entrySet().stream().filter(e->e.getValue()==1)
-				.map(Map.Entry::getKey)//.map(e->e.getKey())
+				.map(Map.Entry::getKey)//.map(e->e.getKey)
 				//.skip(1)
 				.findFirst().orElse(null);
 		
